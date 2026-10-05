@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>derma privacy policy</title>
+<meta name="description" content="How derma handles your face photo, your skin results and the little data it keeps.">
+<style>
+  :root {
+    --ground: #f6f1e7; --text: #2f3a2a; --muted: #6a715f; --rule: #d9d0bd; --accent: #a65530;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground: #1e2419; --text: #efe8d8; --muted: #b3ad9c; --rule: #3c4535; --accent: #d49069; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--text);
+    font: 17px/1.6 Georgia, "Iowan Old Style", "Times New Roman", serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 48px 16px 72px; }
+  h1 { font-weight: 300; font-size: 2.4rem; line-height: 1.15; margin: 0 0 8px; }
+  h2 { font-weight: 400; font-size: 1.35rem; margin: 2.4em 0 0.4em; padding-top: 1.2em; border-top: 1px solid var(--rule); }
+  h3 { font-weight: 400; font-style: italic; font-size: 1.1rem; margin: 1.6em 0 0.2em; }
+  p, li { margin: 0.5em 0; }
+  .meta { color: var(--muted); font-size: 0.95rem; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px 10px 0; border-bottom: 1px solid var(--rule); }
+  th { font-weight: 400; font-style: italic; color: var(--muted); }
+  .wrap { overflow-x: auto; }
+  .note { color: var(--muted); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>derma privacy policy</h1>
+<p class="meta">Version 1 · Effective October 5, 2026</p>
+
+<p>derma reads visible skin attributes from a photo of your face and suggests a skincare routine.
+This policy explains what that involves. The short version:</p>
+<ul>
+  <li>Your photo is used only to read your skin. We never store it. Our analysis provider deletes it within 24 hours at most.</li>
+  <li>Your results and your answers stay on your phone.</li>
+  <li>Our server keeps an anonymous ID, how many reads you've used, and your agreement to the photo analysis. Nothing else.</li>
+  <li>You can delete everything at any time in the app: Settings, then Delete my data.</li>
+  <li>derma is for adults (18 and over). It gives cosmetic guidance, not medical advice.</li>
+</ul>
+
+<h2>Who we are</h2>
+<p>derma is run by Michael Kwon, Vaughan, Ontario, Canada ("we", "us").
+The person responsible for privacy is Michael Kwon. For any question or request about your
+information, email <a href="mailto:derma.privacy@gmail.com">derma.privacy@gmail.com</a>.</p>
+
+<h2>What we collect, and why</h2>
+<div class="wrap">
+<table>
+  <tr><th>Information</th><th>Why</th><th>Where it's kept</th></tr>
+  <tr><td>A cropped photo of your face</td><td>To read visible skin attributes such as oiliness, texture, redness and breakouts</td><td>Not kept by us. Sent to our analysis provider, which deletes it within 24 hours</td></tr>
+  <tr><td>Your skin results</td><td>To show your results and build your routine</td><td>On your phone only</td></tr>
+  <tr><td>Your answers (skin goals, how your skin feels, ingredients to avoid, experience, budget)</td><td>To tailor your results and routine</td><td>On your phone only</td></tr>
+  <tr><td>An anonymous account ID</td><td>So the server can apply the daily read limit and record your agreement. It isn't linked to your name, email or phone number</td><td>Our server, in Canada</td></tr>
+  <tr><td>How many reads you've used each day</td><td>To apply the daily limit</td><td>Our server, in Canada</td></tr>
+  <tr><td>Your agreement to the photo analysis (which version, and when)</td><td>To make sure you agreed before any photo is analysed</td><td>Our server, in Canada</td></tr>
+  <tr><td>Your phone's time zone</td><td>So your daily reads reset at your midnight</td><td>Sent with each read and not stored</td></tr>
+  <tr><td>Crash reports</td><td>To fix errors in the app</td><td>Sentry, in the United States</td></tr>
+</table>
+</div>
+<p>We don't ask for your name, email, phone number or location. We don't use advertising or
+tracking tools, and we don't sell or rent your information.</p>
+
+<h2>Your face photo</h2>
+<p>A photo of your face can be biometric information, so we treat it with extra care.</p>
+<ul>
+  <li><strong>Only with your agreement.</strong> Before your first read, the app explains what happens to
+  your photo and asks you to agree. No photo is analysed without it, and the server checks this
+  before every read.</li>
+  <li><strong>One purpose.</strong> Your photo is used only to read your skin for you, then deleted. It isn't
+  used to identify you, and no facial recognition is used.</li>
+  <li><strong>Checked on your phone first.</strong> The app checks the photo's light and framing on your phone.
+  Only a cropped photo of your face is sent, securely, and the app deletes its own copy as soon as
+  the read is done.</li>
+  <li><strong>Deleted quickly.</strong> We don't store your photo. Our analysis provider, Perfect Corp, processes it
+  and keeps it for no more than 24 hours. We ask for it to be deleted as soon as each read is done.</li>
+  <li><strong>Never sold or shared</strong> for any other purpose.</li>
+</ul>
+
+<h2>Who processes your information for us</h2>
+<div class="wrap">
+<table>
+  <tr><th>Provider</th><th>What they do</th><th>Where</th></tr>
+  <tr><td>Supabase</td><td>Runs our server and database (anonymous ID, read counts, agreement)</td><td>Canada (Amazon Web Services, Montreal region)</td></tr>
+  <tr><td>Perfect Corp.</td><td>Analyses the photo and returns skin results</td><td>Amazon Web Services; may be the United States or other countries</td></tr>
+  <tr><td>Sentry</td><td>Receives crash reports. They contain no photo, no user ID and no personal details</td><td>United States</td></tr>
+</table>
+</div>
+<p>When information is processed outside Canada, it may be accessible to authorities there under
+local law. Each provider may only use your information to provide its service to us.</p>
+
+<h2>How long we keep things</h2>
+<div class="wrap">
+<table>
+  <tr><th>Information</th><th>Kept until</th></tr>
+  <tr><td>Face photo</td><td>Not kept by us. Our provider deletes it within 24 hours</td></tr>
+  <tr><td>Skin results and answers</td><td>On your phone until you take a new read, delete your data, or uninstall the app</td></tr>
+  <tr><td>Anonymous ID, read counts, agreement</td><td>Until you delete your data, or automatically after 90 days without using the app</td></tr>
+  <tr><td>Crash reports</td><td>Sentry's standard retention period</td></tr>
+</table>
+</div>
+<p>This table is also our retention schedule for biometric information. Face photos are never
+kept beyond the 24 hours above, and in any case no longer than the purpose of the read requires.</p>
+
+<h2>Your choices and rights</h2>
+<ul>
+  <li><strong>Delete everything:</strong> in the app, go to Settings, then Delete my data. This deletes your account
+  on our server (read counts and agreement included) and the results and answers on your phone. It
+  also withdraws your agreement to the photo analysis.</li>
+  <li><strong>Withdraw your agreement:</strong> deleting your data, as above, withdraws it. No further photos are
+  analysed.</li>
+  <li><strong>Access or correction:</strong> your results and answers are on your phone, where you can see them.
+  For anything else, email us. We reply within 30 days.</li>
+  <li><strong>Complaints:</strong> please contact us first. In Canada you can also complain to the
+  <a href="https://www.priv.gc.ca/">Office of the Privacy Commissioner of Canada</a>, or in Quebec to the
+  <a href="https://www.cai.gouv.qc.ca/">Commission d'accès à l'information</a>.</li>
+</ul>
+<p>If you live in the United States, you may have extra rights under your state's law, such as
+rights to access or delete information and to withdraw consent. Email us to use them; we won't
+treat you differently for doing so.</p>
+
+<h2>Age</h2>
+<p>derma is for adults (18 and over). The app asks for your year of birth before you start and
+stops if you're under 18. We keep only whether you are 18 or over, never your year of birth, and
+that stays on your phone.</p>
+
+<h2>Not medical advice</h2>
+<p>derma describes how your skin looks. It does not diagnose or treat any condition. See a
+dermatologist about anything painful, changing or spreading.</p>
+
+<h2>Security</h2>
+<p>Information travels between the app and our server over encrypted connections. Our database is
+closed to the app: only our own server code can read or change it. No method is perfectly secure,
+but we keep what we hold to a minimum, so there is little to expose.</p>
+
+<h2>Changes to this policy</h2>
+<p>If we change what happens to your photo or to the information we keep, we'll update this page,
+change its version number, and ask you to agree again in the app before your next read.</p>
+
+<p class="note">Questions: <a href="mailto:derma.privacy@gmail.com">derma.privacy@gmail.com</a></p>
+</main>
+</body>
+</html>
